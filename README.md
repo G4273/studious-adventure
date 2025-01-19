@@ -1,9 +1,14 @@
 
-# Project Title
+# MERNBase
 
-A brief description of what this project does and who it's for
+This project is a MERN Stack Template designed to provide a ready-to-use boilerplate for building full-stack web applications using MongoDB, Express, React, and Node.js. It serves as a foundation for developers to kickstart their projects without the hassle of setting up folder structures, installing dependencies, or configuring essential tools.
 
 ---
+
+# Who is this for?
+- Developers looking for a pre-configured MERN stack setup to save time and streamline the initial development process.
+- Students or learners who want a simple and structured starting point for practicing full-stack development.
+- Teams or freelancers building scalable web applications with React for the frontend and Node.js for the backend.
 
 ## **Prerequisites**
 
@@ -24,20 +29,18 @@ git clone <repository-url>
 cd <repository-name>
 ```
 
-### 2. Navigate to folder directory
+### 2. Navigate to folder directory and Install Dependencies (for both Client and Server)
 ```bash
 cd <repository-name>
 ```
-
-### 3. Install Dependencies
 ```bash
 npm install
 ```
 
-### 4. Create .env file
+### 4. Create .env file in root folder
 ```bash
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database>?retryWrites=true&w=majority
-PORT=5000
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/mydatabase?retryWrites=true&w=majority
+
 ```
 
 ---
@@ -54,6 +57,12 @@ npm start
 http://localhost:5000
 ```
 
----
+### 3. Start the Client
+```bash
+npm start
+```
 
-## **Folder Structure**
+### 2. Access the API
+```bash
+http://localhost:3000
+```
